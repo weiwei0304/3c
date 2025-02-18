@@ -82,7 +82,7 @@
 
               <a
                 href="https://www.instagram.com/chaoyu_3c/"
-                class="bg-gray-200 hover:bg-pink-100 p-3 rounded-full transition-colors"
+                class="bg-gray-200 hover:bg-pink-100 p-3 rounded-xl transition-colors"
               >
                 <font-awesome-icon
                   :icon="['fab', 'instagram']"
