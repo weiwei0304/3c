@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <!-- 首頁區塊 -->
+  <div class="max-w-6xl mx-auto">
+    <div class="h-[400px] md:h-[500px]">
+      <Carousel />
+    </div>
+
     <div
       id="home"
       class="h-screen bg-gradient-to-b from-[#DADCF9] to-[#EFEFEB] flex flex-col justify-center items-center"
@@ -15,7 +18,10 @@
     </div>
 
     <!-- 服務區塊 -->
-    <div id="service" class="h-screen bg-white py-16">
+    <div
+      id="service"
+      class="h-screen bg-gradient-to-b from-[#DADCF9] to-[#EFEFEB] py-16"
+    >
       <div class="max-w-6xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-center">我們的服務</h2>
         <div class="grid grid-cols-3 gap-8">
@@ -38,7 +44,10 @@
     </div>
 
     <!-- 關於我們區塊 -->
-    <div id="about" class="h-screen bg-gray-100 py-16">
+    <div
+      id="about"
+      class="h-screen bg-gradient-to-b from-[#DADCF9] to-[#EFEFEB] py-16"
+    >
       <div class="max-w-4xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-center">關於我們</h2>
         <div class="bg-white p-8 rounded-lg shadow-lg">
@@ -68,6 +77,8 @@
   </div>
 </template>
 
-<style scoped>
-/* 如果需要添加自定義樣式可以在這裡補充 */
-</style>
+<script setup>
+import Carousel from '@/components/content/Carousel.vue';
+</script>
+
+<style scoped></style>
