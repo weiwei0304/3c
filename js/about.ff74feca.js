@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunk_3c"]=self["webpackChunk_3c"]||[]).push([[594],{603:function(n,u,t){t.r(u),t.d(u,{default:function(){return o}});var a=t(6768);const c={class:"about"};function e(n,u){return(0,a.uX)(),(0,a.CE)("div",c,u[0]||(u[0]=[(0,a.Lk)("h1",null,"This is an about page",-1)]))}var r=t(1241);const s={},i=(0,r.A)(s,[["render",e]]);var o=i}}]);
+//# sourceMappingURL=about.ff74feca.js.map
