@@ -67,9 +67,14 @@
           </div>
 
           <!-- 社群媒體區塊 -->
+          <!-- 社群媒體區塊 -->
           <div class="flex flex-col space-y-4">
-            <h3 class="text-lg font-semibold text-gray-800 mb-2">關注我們</h3>
-            <div class="flex gap-4">
+            <h3
+              class="text-lg font-semibold text-gray-800 mb-2 text-center md:text-left"
+            >
+              關注我們
+            </h3>
+            <div class="flex gap-4 justify-center md:justify-start">
               <a
                 href="https://m.facebook.com/100064015510294/"
                 class="bg-gray-200 hover:bg-blue-100 p-3 rounded-xl transition-colors"
